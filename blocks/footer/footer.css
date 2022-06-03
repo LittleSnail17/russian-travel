@@ -1,6 +1,5 @@
 .footer{
     max-width: 92.5%;
-    height: 18px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -23,9 +22,7 @@
 @media (min-width: 320px) and (max-width: 425px){
     .footer{
         max-width: 58.125%;
-        height: 310px;
         flex-direction: column;
-        justify-content: space-between;
         margin: 0 0 0 16px;
     }
 }

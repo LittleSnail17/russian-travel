@@ -3,18 +3,17 @@
     margin-left: auto;
     margin-right: auto;
 }
-@media (min-width: 720px) and (max-width: 768px){
+@media (min-width: 1025px) and (max-width: 1200px){
     .lead{
-    width: 100%;
+        width: 82.5%;
     }
 }
-@media (min-width: 426px) and (max-width: 719px){
+@media (min-width: 769px) and (max-width: 1024px){
     .lead{
-      width: 100%;
+        width: 90.625%;
     }
 }
-
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 768px){
     .lead{
    width: 100%;
     }

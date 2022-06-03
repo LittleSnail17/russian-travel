@@ -1,29 +1,30 @@
 .header{
     padding-top: 28px;
     max-width: 92.5%;
-    height: 52px;
     padding-bottom: 56px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
 }
+@media (min-width: 320px) and (max-width: 1024px) {
+   .header{
+    padding-bottom: 48px;
+   } 
+}
 @media (min-width: 769px) and (max-width: 1024px){
     .header{
-    padding-bottom: 48px;
     max-width: 90.625%;
     }
 }
 @media (min-width: 426px) and (max-width: 768px){
     .header{
-        padding-bottom: 48px;
         max-width: 93.75%;
     }
 }
 @media (min-width: 320px) and (max-width: 425px){
     .header{
-        padding-bottom: 48px;
+        padding-top: 16px;
         max-width: 90%;
-        height: 42px;
     }
 }

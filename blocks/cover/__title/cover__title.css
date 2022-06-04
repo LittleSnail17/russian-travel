@@ -7,7 +7,13 @@
     margin:0 0 32px 0;
     z-index: 2;
 }
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 506px) and (max-width: 551px){
+    .cover__title{
+        font-size: 42px;
+        line-height: 45px;
+    }
+}
+@media (min-width: 320px) and (max-width: 505px){
     .cover__title{
         font-size: 32px;
         line-height: 35px;

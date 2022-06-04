@@ -5,7 +5,7 @@
     align-items: center;
     text-decoration: none;
     max-width: 1184px;
-    min-height: 740px;
+    min-height: 57.81vw;
     color: #fff;
 }
 .cover__overlay:after{
@@ -25,23 +25,9 @@
     opacity: 0.8;
     transition: opacity 0.2s ease;
 }
-@media (min-width: 320px) and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1120px){
     .cover__overlay{
     max-width: 100%;
-    }
-}
-@media (min-width: 769px) and (max-width: 1024px){
-    .cover__overlay{
-    min-height: 640px;
-    }
-}
-@media (min-width: 426px) and (max-width: 768px){
-    .cover__overlay{
-    min-height: 480px;
-    }
-}
-@media (min-width: 320px) and (max-width: 425px){
-    .cover__overlay{
-    min-height: 200px;
+    min-height: 62.5vw;
     }
 }

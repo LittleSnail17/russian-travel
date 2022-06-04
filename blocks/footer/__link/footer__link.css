@@ -9,8 +9,12 @@
 .footer__link:last-of-type{
     margin-right: 0;
 }
-
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 601px) and (max-width: 700px){
+    .footer__link{
+    margin-right: 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
     .footer__link{
         font-size: 24px;
     line-height: 24px;

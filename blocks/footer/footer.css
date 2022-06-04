@@ -14,12 +14,12 @@
     max-width: 90.625%;
     }
 }
-@media (min-width: 426px) and (max-width: 768px){
+@media (min-width: 601px) and (max-width: 768px){
     .footer{
         max-width: 93.75%;
     }
 }
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 600px){
     .footer{
         max-width: 58.125%;
         flex-direction: column;

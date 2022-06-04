@@ -7,20 +7,30 @@
     "image text";
     gap: 48px 40px;
 }
-@media (min-width: 931px) and (max-width: 1024px){
+@media (min-width: 931px) and (max-width: 1139px){
     .place{
         grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
 }
+@media (min-width: 600px) and (max-width: 930px){
+    .place{
+        padding-top: 73px;
+    }
+}
 @media (min-width: 700px) and (max-width: 930px){
     .place{
-    padding-top: 73px;
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
     }
 }
-@media (min-width: 320px) and (max-width: 699px){
+@media (min-width: 670px) and (max-width: 699px){
+    .place{
+    grid-template-columns: 320px 1fr;
+    gap: 48px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 669px){
     .place{
         padding-top: 50px;
         grid-template-columns: 1fr;

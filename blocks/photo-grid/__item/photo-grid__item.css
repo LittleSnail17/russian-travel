@@ -9,13 +9,13 @@
     height: 225px;
     }
 }
-@media (min-width: 426px) and (max-width: 930px){
+@media (min-width: 720px) and (max-width: 930px){
     .photo-grid__item{
         width: 352px;
         height: 264px;
     }
 }
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 579px){
     .photo-grid__item{
         width: 288px;
         height: 216px;

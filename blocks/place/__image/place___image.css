@@ -2,17 +2,23 @@
     grid-area: image;
     width: 460px;
 }
-@media (min-width: 931px) and (max-width: 1024px){
+
+@media (min-width: 931px) and (max-width: 1139px){
     .place__image{
         width: 440px;
     }
 }
-@media (min-width: 426px) and (max-width: 930px){
+@media (min-width: 700px) and (max-width: 930px){
     .place__image{
         max-width: 340px;
     }
 }
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 670px) and (max-width: 699px){
+    .place__image{
+        max-width: 320px;
+    }
+}
+@media (min-width: 320px) and (max-width: 669px){
     .place__image{
         width: 100%;
     }
